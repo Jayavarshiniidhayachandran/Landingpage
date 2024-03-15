@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: "Fira Sans", sans-serif;
+    color:white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: rgb(96, 43, 146);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav .heading1 {
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 20px;
+}
+nav ul li {
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+nav ul li h3:hover{
+    background-color: black;
+    cursor:pointer;
+}
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5%;
+}
+.line .side1 {
+    padding-right: 50px;
+}
+.side1 h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: rgb(95, 48, 139);
+}
+.side1 h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color:black;
+}
+.side1 button {
+    width: 200px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    border-style: none;
+    color: black;
+    background-color: rgb(138, 83, 189);
+    font-size: 17px;
+    font-weight: 600;
+}
+nav ul li button{
+    width:100px;
+    padding:6px 10px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 20px;
+    background-color: rgb(62, 124, 62);
+    color:white;
+}
+.side1 button:hover{
+    cursor: pointer;
+    background-color: rgb(78, 27, 125);
+    color:white;
+}
